@@ -37,6 +37,7 @@ export default function Page(){
             <Link href= "/spotify">Entre no spotify</Link>
             <Link href= "/lista">Lista de músicas</Link>
             <Link href= "/pokemon">Escolha seu pokemon</Link>
+            <Link href= "/sobre-mim">Sobre mim</Link>
             </View>
     
         </View>
