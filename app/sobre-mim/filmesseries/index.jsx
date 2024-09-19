@@ -41,13 +41,9 @@ export default filmes = () => {
           renderItem={({ item }) => (
               <View style={style.mov}>
                <Text style={style.titulo}>{item.titulo}</Text>
-               <Link
-               href={{
-                pathname:`sobre-mim/detalhe/${item.id}`,
-                params:{'filme':JSON.stringify(item)},
-               }}>
+              
                <Image source={item.Image} style={style.imagem}/>
-               </Link>
+              
               </View>
         
           )}
