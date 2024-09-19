@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, Pressable, StyleSheet, Image } from "react-native";
+import { Link } from "expo-router";
 
 const style = StyleSheet.create({
     perfil: {
@@ -10,7 +11,7 @@ const style = StyleSheet.create({
     },
 
     bely: {
-       margin:33,
+      
         fontSize: 15,
         textAlign: 'center',
         marginTop:'auto',
@@ -64,14 +65,16 @@ export default function Page() {
                 />
                 
                 <Text style={style.bely}> Isabely, 18 anos. </Text>
-            <Pressable onPress={Page}>
-                <Text style={style.botaotexto}>Filmes e séries </Text>
-                <Link href= "/sobre-mim/filmesseries"></Link>
-            </Pressable>
-            <Pressable onPress={Page}>
-                <Text style={style.botaotexto}>Hobbys </Text>
-                <Link href= "/sobre-mim/hobby"></Link>
-            </Pressable>
+         
+                
+                <Link href= "/sobre-mim/filmesseries">
+                    <Text>Filmes e séries</Text>
+                </Link>
+           
+                <Link href= "/sobre-mim/hobby">
+                <Text>Meus hobbies</Text>
+               </Link>
+        
             </View>
 
         </View>
