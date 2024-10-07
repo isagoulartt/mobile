@@ -38,6 +38,9 @@ export default function Page(){
             <Link href= "/lista">Lista de músicas</Link>
             <Link href= "/pokemon">Escolha seu pokemon</Link>
             <Link href= "/sobre-mim">Sobre mim</Link>
+            <Link href= "/ifome">Ifome</Link>
+            <Link href= "/galeria">Galeria</Link>
+            <Link href= "/camera">Camera</Link>
             </View>
     
         </View>
